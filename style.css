@@ -1,0 +1,52 @@
+body{
+    background-color: bisque;
+}
+.matriz{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    background-color: rgb(210, 97, 17);
+    padding: 15px;
+    width: 450px;
+    gap: 5px;
+    margin: auto;
+}
+.cuadro{
+    background-color:rgb(208, 255, 139);
+    border: 1px solid  rgb(210, 97, 17);
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#Reiniciar{
+    display: grid;
+    color: rgb(200, 255, 177);
+    background-color: rgb(255, 111, 0);
+    width: 50%;
+    height: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    margin: auto;
+}
+P{
+    display: grid;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    font-size: 25px;
+}
+@media only screen and (max-width: 600px){
+    body .cuadro{
+        width: 40px;
+        height: 40px;
+        margin:auto;
+    }
+    .matriz{
+        width: 260px;
+        margin:auto;
+    }
+}
